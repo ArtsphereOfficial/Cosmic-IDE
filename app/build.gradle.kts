@@ -159,6 +159,8 @@ materialThemeBuilder {
         )) {
             create(name) {
                 primaryColor = color
+                secondaryColor = "#00639C"
+                tertiaryColor = "#146C2F"
                 lightThemeFormat = "Theme.CosmicIde.%s.Light"
                 lightThemeParent = "Theme.CosmicIde"
                 darkThemeFormat = "Theme.CosmicIde.%s.Dark"
