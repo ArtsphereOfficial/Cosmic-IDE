@@ -83,6 +83,230 @@ android:id="@+id/colorButton"
         </ViewSwitcher>
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:tooltipText="Primary" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorOnPrimary"
+        android:tooltipText="OnPrimary" />
+        
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorPrimaryContainer"
+        android:tooltipText="PrimaryContainer" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorOnPrimaryContainer"
+        android:tooltipText="OnPrimaryContainer" />        
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorSecondary"
+        android:tooltipText="Secondary" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorOnSecondary"
+        android:tooltipText="OnSecondary" />
+        
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorSecondaryContainer"
+        android:tooltipText="SecondaryContainer" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorOnSecondaryContainer"
+        android:tooltipText="OnSecondaryContainer" />        
+        
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorTertiary"
+        android:tooltipText="Tertiary" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorOnTertiary"
+        android:tooltipText="OnTertiary" />
+        
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorTertiaryContainer"
+        android:tooltipText="TertiaryContainer" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorOnTertiaryContainer"
+        android:tooltipText="OnTertiaryContainer" />   
+        
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorError"
+        android:tooltipText="Error" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorOnError"
+        android:tooltipText="OnError" />
+        
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorErrorContainer"
+        android:tooltipText="ErrorContainer" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorOnErrorContainer"
+        android:tooltipText="OnErrorContainer" />            
+          
+    </LinearLayout> 
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?android:attr/colorBackground"
+        android:tooltipText="Background" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorOnBackground"
+        android:tooltipText="OnBackground" />
+        
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorSurface"
+        android:tooltipText="Surface" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorOnSurface"
+        android:tooltipText="OnSurface" />   
+        
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorSurfaceVariant"
+        android:tooltipText="SurfaceVariant" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorOnSurfaceVariant"
+        android:tooltipText="OnSurfaceVariant" />
+        
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorOutline"
+        android:tooltipText="Outline" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorOutlineVariant"
+        android:tooltipText="OutlineVariant" />                    
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorSurfaceInverse"
+        android:tooltipText="SurfaceInverse" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorOnSurfaceInverse"
+        android:tooltipText="OnSurfaceInverse" />            
+        
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorPrimaryInverse"
+        android:tooltipText="PrimaryInverse" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorSurfaceDim"
+        android:tooltipText="SurfaceDim" />
+        
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorSurfaceBright"
+        android:tooltipText="SurfaceBright" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorSurfaceContainerLowest"
+        android:tooltipText="SurfaceContainerLowest" />   
+        
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorSurfaceContainerLow"
+        android:tooltipText="SurfaceContainerLow" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorSurfaceContainer"
+        android:tooltipText="SurfaceContainer" />
+        
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorSurfaceContainerHigh"
+        android:tooltipText="SurfaceContainerHigh" />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:backgroundTint="?attr/colorSurfaceContainerHighest"
+        android:tooltipText="SurfaceContainerHighest" />       
+    
+</LinearLayout>    
+
+</LinearLayout>
 
     <include
         android:id="@+id/fabs"
