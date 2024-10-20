@@ -150,11 +150,11 @@ fun getGitCommit(): String {
 materialThemeBuilder {
     themes {
         for ((name, color) in listOf(
-            "Pyro" to "#0B58CE",
-            "indigo" to "#3F51B5",
-            "flamingo" to "#2AD181",
-            "mint" to "#009688",
-            "emerald" to "#4CAF50",
+            "Pyro" to "#7D70FE",
+            "indigo" to "#3573F0",
+            "flamingo" to "#0EAB5C",
+            "mint" to "#FF6436",
+            "emerald" to "#FECB1A",
             "azure" to "#3573F0",
         )) {
             create(name) {
