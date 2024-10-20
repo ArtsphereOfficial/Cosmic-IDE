@@ -151,7 +151,7 @@ materialThemeBuilder {
     themes {
         for ((name, color) in listOf(
             "Pyro" to "#7D70FE",
-            "indigo" to "#3573F0",
+            "indigo" to "#0B58CE",
             "flamingo" to "#0EAB5C",
             "mint" to "#FF6436",
             "emerald" to "#FECB1A",
